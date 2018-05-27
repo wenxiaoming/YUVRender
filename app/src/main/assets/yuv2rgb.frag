@@ -5,10 +5,10 @@ uniform   lowp  sampler2D samplerU;
 uniform   lowp  sampler2D samplerV;
 void main()
 {
-    media float y;
-    media float u;
-    media float v;
-    lowp    vec3 rgb;
+    mediump float y;
+    mediump float u;
+    mediump float v;
+    lowp  vec3 rgb;
     mat3 convmatrix = mat3(vec3(1.164,  1.164, 1.164),
                            vec3(0.0,   -0.392, 2.017),
                            vec3(1.596, -0.813, 0.0));
